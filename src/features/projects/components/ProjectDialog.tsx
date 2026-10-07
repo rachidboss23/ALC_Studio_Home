@@ -42,10 +42,11 @@ export function ProjectDialog({ project, onClose }: Props) {
   const current = images[index];
 
   return (
-    <dialog ref={ref} onClose={onClose} onClick={(e) => e.target === ref.current && onClose()} className="m-auto h-[92vh] w-[min(1100px,94vw)] overflow-hidden bg-paper p-0 text-ink backdrop:bg-black/70">
+    <dialog ref={ref} onClose={onClose} onClick={(e) => e.target === ref.current && onClose()} className="m-auto h-dvh max-h-none w-dvw max-w-none overflow-hidden bg-paper p-0 text-ink backdrop:bg-black/70 md:h-[92vh] md:w-[min(1100px,94vw)]">
       {project && current && (
-        <div className="grid h-full md:grid-cols-[1.3fr_1fr]">
+        <div className="grid h-full grid-rows-[minmax(0,1fr)_auto] md:grid-cols-[1.3fr_1fr] md:grid-rows-1">
           <div className="relative min-h-0 bg-ink">
+            <button type="button" onClick={onClose} className="absolute top-3 right-3 z-10 bg-paper px-3 py-2 text-xs uppercase tracking-[0.14em] text-ink md:hidden">Cerrar ✕</button>
             <Image key={current.src} src={current.src} alt={`${project.title}, foto ${index + 1}`} fill sizes="(min-width: 768px) 60vw, 94vw" className="object-contain" />
             {images.length > 1 && (
               <>
@@ -55,8 +56,8 @@ export function ProjectDialog({ project, onClose }: Props) {
               </>
             )}
           </div>
-          <div className="flex min-h-0 flex-col overflow-y-auto p-6 sm:p-8">
-            <button type="button" onClick={onClose} className="self-end text-xs uppercase tracking-[0.14em] text-stone hover:text-ink">Cerrar ✕</button>
+          <div className="flex max-h-[42dvh] min-h-0 flex-col overflow-y-auto p-5 sm:p-8 md:max-h-none">
+            <button type="button" onClick={onClose} className="hidden self-end text-xs uppercase tracking-[0.14em] text-stone hover:text-ink md:block">Cerrar ✕</button>
             {project.location && <p className="mt-4 text-[11px] uppercase tracking-[0.18em] text-accent">{project.location}</p>}
             <h3 className="mt-1 font-serif text-3xl leading-tight">{project.title}</h3>
             <p className="mt-4 text-sm leading-relaxed text-stone">{project.description}</p>
