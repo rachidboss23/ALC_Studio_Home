@@ -1,0 +1,530 @@
+{
+  "bano-penablanca": {
+    "after": [
+      {
+        "src": "/projects/bano-penablanca/after/01.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/after/02.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/after/03.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/after/04.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/after/05.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/after/06.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/after/07.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "before": [
+      {
+        "src": "/projects/bano-penablanca/before/01.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/bano-penablanca/before/02.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "cocina-concon": {
+    "after": [
+      {
+        "src": "/projects/cocina-concon/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-concon/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-concon/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-concon/after/04.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "cocina-los-pinos-quilpue": {
+    "after": [
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/05.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/06.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/07.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/08.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/09.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-los-pinos-quilpue/after/10.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "cocina-troncos-viejos": {
+    "after": [
+      {
+        "src": "/projects/cocina-troncos-viejos/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-troncos-viejos/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-troncos-viejos/after/03.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "cocina-troncos-viejos-ds19": {
+    "after": [
+      {
+        "src": "/projects/cocina-troncos-viejos-ds19/after/01.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/cocina-troncos-viejos-ds19/after/02.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/cocina-troncos-viejos-ds19/after/03.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/cocina-troncos-viejos-ds19/after/04.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "before": []
+  },
+  "cocina-villa-alemana": {
+    "after": [
+      {
+        "src": "/projects/cocina-villa-alemana/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/05.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/06.webp",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/07.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-villa-alemana/after/08.webp",
+        "width": 720,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "cocina-vina-del-mar": {
+    "after": [
+      {
+        "src": "/projects/cocina-vina-del-mar/after/01.webp",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-vina-del-mar/after/02.webp",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-vina-del-mar/after/03.webp",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-vina-del-mar/after/04.webp",
+        "width": 720,
+        "height": 1280
+      }
+    ],
+    "before": [
+      {
+        "src": "/projects/cocina-vina-del-mar/before/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-vina-del-mar/before/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-vina-del-mar/before/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/cocina-vina-del-mar/before/04.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "local-comercial-villa-alemana": {
+    "after": [
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/01.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/02.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/03.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/04.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/05.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/06.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/projects/local-comercial-villa-alemana/after/07.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "before": []
+  },
+  "rack-parque-pinares": {
+    "after": [
+      {
+        "src": "/projects/rack-parque-pinares/after/01.webp",
+        "width": 900,
+        "height": 1600
+      }
+    ],
+    "before": []
+  },
+  "rack-recreo-valparaiso": {
+    "after": [
+      {
+        "src": "/projects/rack-recreo-valparaiso/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/rack-recreo-valparaiso/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/rack-recreo-valparaiso/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/rack-recreo-valparaiso/after/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/rack-recreo-valparaiso/after/05.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "remodelacion-completa-los-pinos": {
+    "after": [
+      {
+        "src": "/projects/remodelacion-completa-los-pinos/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-completa-los-pinos/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-completa-los-pinos/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-completa-los-pinos/after/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-completa-los-pinos/after/05.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-completa-los-pinos/after/06.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "remodelacion-interior-concon": {
+    "after": [
+      {
+        "src": "/projects/remodelacion-interior-concon/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-interior-concon/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-interior-concon/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-interior-concon/after/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-interior-concon/after/05.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/remodelacion-interior-concon/after/06.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "before": []
+  },
+  "reparacion-muros-cielos": {
+    "after": [
+      {
+        "src": "/projects/reparacion-muros-cielos/after/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/05.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/06.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/07.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/08.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/09.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/after/10.webp",
+        "width": 720,
+        "height": 1280
+      }
+    ],
+    "before": [
+      {
+        "src": "/projects/reparacion-muros-cielos/before/01.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/before/02.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/before/03.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/before/04.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/before/05.webp",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "/projects/reparacion-muros-cielos/before/06.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "tocador-a-medida": {
+    "after": [
+      {
+        "src": "/projects/tocador-a-medida/after/01.webp",
+        "width": 356,
+        "height": 633
+      },
+      {
+        "src": "/projects/tocador-a-medida/after/02.webp",
+        "width": 356,
+        "height": 633
+      },
+      {
+        "src": "/projects/tocador-a-medida/after/03.webp",
+        "width": 354,
+        "height": 634
+      },
+      {
+        "src": "/projects/tocador-a-medida/after/04.webp",
+        "width": 355,
+        "height": 635
+      }
+    ],
+    "before": []
+  }
+}
