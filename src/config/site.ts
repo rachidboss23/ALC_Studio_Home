@@ -12,6 +12,7 @@ export const site = {
   address: { street: "Lago Bertrand 120", city: "Quilpué", region: "Región de Valparaíso", country: "CL" },
   hours: "Lunes a viernes, 08:00 a 18:00",
   area: "V Región",
+  serviceAreas: ["Quilpué", "Villa Alemana", "Viña del Mar", "Concón", "Valparaíso", "Peñablanca"],
   instagram: { handle: "@alcstudiohome", url: "https://www.instagram.com/alcstudiohome/" },
 } as const;
 
