@@ -7,7 +7,7 @@ function siteUrl() {
 
 export const site = {
   name: "ALC Studio Home",
-  legalName: "ALC Construcciones",
+  legalName: "ALC Araus SpA",
   tagline: "Diseño, fabricación e instalación de espacios a medida",
   description:
     "Diseño, fabricación e instalación de cocinas, clósets, muebles de baño y remodelaciones a medida en la V Región. Quilpué, Viña del Mar, Villa Alemana y alrededores.",
@@ -15,7 +15,9 @@ export const site = {
   phone: "+56940097213",
   phoneDisplay: "+56 9 4009 7213",
   whatsapp: "56940097213",
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "alcspaconstrucciones@gmail.com",
+  email: "contacto@alcstudiohome.cl",
+  // Dirección de entrega del formulario; no es el correo público.
+  formRecipient: "alcspaconstrucciones@gmail.com",
   address: { street: "Lago Bertrand 120", city: "Quilpué", region: "Región de Valparaíso", country: "CL" },
   hours: "Lunes a viernes, 08:00 a 18:00",
   area: "V Región",

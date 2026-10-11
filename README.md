@@ -13,7 +13,6 @@ npm run build      # verificación de producción
 
 El archivo `.env.local` ya viene listo (copia de `.env.example`). Ajusta:
 - `NEXT_PUBLIC_SITE_URL`: dominio final (afecta sitemap, SEO y datos estructurados).
-- `NEXT_PUBLIC_CONTACT_EMAIL`: correo que recibe el formulario (hoy el actual; luego `contacto@dominio`).
 
 ## Estructura
 

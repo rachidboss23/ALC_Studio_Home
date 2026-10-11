@@ -7,7 +7,7 @@ export type ContactPayload = { name: string; phone: string; email?: string; proj
 // Para cambiar de proveedor (Resend, etc.) basta con reemplazar esta función.
 export async function sendMessage(payload: ContactPayload): Promise<boolean> {
   try {
-    const res = await fetch(`https://formsubmit.co/ajax/${site.email}`, {
+    const res = await fetch(`https://formsubmit.co/ajax/${site.formRecipient}`, {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
