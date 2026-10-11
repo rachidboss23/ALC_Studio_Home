@@ -6,6 +6,7 @@ import { Hero } from "@/features/home/Hero";
 import { Process } from "@/features/home/Process";
 import { ServiceAreas } from "@/features/home/ServiceAreas";
 import { ServicesPreview } from "@/features/home/ServicesPreview";
+import { InstagramCta } from "@/features/social/InstagramCta";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <BeforeAfter />
       <Process />
       <ServiceAreas />
+      <InstagramCta />
       <ContactSection />
     </>
   );

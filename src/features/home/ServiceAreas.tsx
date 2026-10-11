@@ -9,9 +9,7 @@ export function ServiceAreas() {
         <div>
           <SectionHeading eyebrow="Cobertura" title={`Trabajamos en la ${site.area}.`} />
           <p className="mt-5 text-sm text-stone">
-            Nuestros proyectos más recientes están en estas comunas. Síguenos en{" "}
-            <a href={site.instagram.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Instagram {site.instagram.handle}</a>{" "}
-            para ver más trabajos.
+            Nuestros proyectos más recientes están en estas comunas.
           </p>
         </div>
         <ul className="flex flex-wrap gap-2.5">

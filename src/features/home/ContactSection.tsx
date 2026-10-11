@@ -1,6 +1,7 @@
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
+import { InstagramIcon } from "@/components/ui/InstagramIcon";
 import { ContactForm } from "@/features/contact/ContactForm";
 import { site } from "@/config/site";
 import { whatsappUrl } from "@/lib/whatsapp";
@@ -15,6 +16,12 @@ export function ContactSection() {
           <address className="mt-8 space-y-2 text-sm not-italic">
             <p><a href={`tel:${site.phone}`} className="hover:text-accent">{site.phoneDisplay}</a></p>
             <p><a href={`mailto:${site.email}`} className="hover:text-accent">{site.email}</a></p>
+            <p>
+              <a href={site.instagram.url} target="_blank" rel="noopener noreferrer" aria-label={`Visitar Instagram de ${site.name} (${site.instagram.handle})`} className="inline-flex items-center gap-2 hover:text-accent">
+                <InstagramIcon className="h-4 w-4" />
+                Instagram {site.instagram.handle}
+              </a>
+            </p>
             <p>{site.address.street}, {site.address.city} (oficina)</p>
             <p>{site.hours}</p>
           </address>

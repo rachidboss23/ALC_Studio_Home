@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { InstagramIcon } from "@/components/ui/InstagramIcon";
 import { nav, site } from "@/config/site";
 import { Container } from "./Container";
 
@@ -26,7 +27,12 @@ export function Footer() {
             <p><a href={`mailto:${site.email}`} className="hover:text-accent">{site.email}</a></p>
             <p>{site.address.street}, {site.address.city}<br /><span className="text-paper/50">Oficina. Trabajamos en la {site.area}.</span></p>
             <p>{site.hours}</p>
-            <p><a href={site.instagram.url} target="_blank" rel="noopener noreferrer" className="hover:text-accent">Instagram {site.instagram.handle}</a></p>
+            <p>
+              <a href={site.instagram.url} target="_blank" rel="noopener noreferrer" aria-label={`Visitar Instagram de ${site.name} (${site.instagram.handle})`} className="inline-flex items-center gap-2 hover:text-accent">
+                <InstagramIcon className="h-4 w-4" />
+                Instagram {site.instagram.handle}
+              </a>
+            </p>
           </address>
         </div>
       </Container>
