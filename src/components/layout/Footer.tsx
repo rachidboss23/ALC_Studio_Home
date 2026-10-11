@@ -33,6 +33,7 @@ export function Footer() {
                 Instagram {site.instagram.handle}
               </a>
             </p>
+            <p><a href={site.googleReviewUrl} target="_blank" rel="noopener noreferrer" className="text-paper/60 hover:text-paper">Déjanos tu reseña</a></p>
           </address>
         </div>
       </Container>

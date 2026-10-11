@@ -7,6 +7,7 @@ import { Process } from "@/features/home/Process";
 import { ServiceAreas } from "@/features/home/ServiceAreas";
 import { ServicesPreview } from "@/features/home/ServicesPreview";
 import { InstagramCta } from "@/features/social/InstagramCta";
+import { Testimonials } from "@/features/testimonials/Testimonials";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Process />
       <ServiceAreas />
       <InstagramCta />
+      <Testimonials />
       <ContactSection />
     </>
   );
