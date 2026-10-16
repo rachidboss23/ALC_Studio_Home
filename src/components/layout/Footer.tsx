@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { InstagramIcon } from "@/components/ui/InstagramIcon";
-import { nav, site } from "@/config/site";
+import { GOOGLE_REVIEW_URL, nav, site } from "@/config/site";
 import { Container } from "./Container";
 
 export function Footer() {
@@ -33,7 +33,7 @@ export function Footer() {
                 Instagram {site.instagram.handle}
               </a>
             </p>
-            <p><a href={site.googleReviewUrl} target="_blank" rel="noopener noreferrer" className="text-paper/60 hover:text-paper">Déjanos tu reseña</a></p>
+            <p><a href={GOOGLE_REVIEW_URL} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center text-paper/60 hover:text-paper">Déjanos tu reseña</a></p>
           </address>
         </div>
       </Container>

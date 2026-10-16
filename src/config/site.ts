@@ -5,6 +5,8 @@ function siteUrl() {
   return "http://localhost:3000";
 }
 
+export const GOOGLE_REVIEW_URL = "https://g.page/r/CaCgCSdE2tP2EAI/review";
+
 export const site = {
   name: "ALC Studio Home",
   legalName: "ALC Araus SpA",
@@ -23,7 +25,6 @@ export const site = {
   area: "V Región",
   serviceAreas: ["Quilpué", "Villa Alemana", "Viña del Mar", "Concón", "Valparaíso", "Peñablanca"],
   instagram: { handle: "@alcstudiohome", url: "https://www.instagram.com/alcstudiohome/" },
-  googleReviewUrl: "https://g.page/r/CaCgCSdE2tP2EAI/review",
 } as const;
 
 export const nav = [
