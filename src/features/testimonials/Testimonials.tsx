@@ -14,7 +14,7 @@ function Star({ filled, className = "h-4 w-4" }: { filled: boolean; className?: 
 
 export function Testimonials() {
   return (
-    <section className="bg-paper py-16 lg:py-20">
+    <section id="resenas" className="bg-paper py-16 lg:py-20">
       <Container>
         {testimonials.length > 0 && (
           <>
