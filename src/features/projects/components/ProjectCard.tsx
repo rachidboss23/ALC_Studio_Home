@@ -10,7 +10,7 @@ export function ProjectCard({ project, priority, variant = "standard" }: Props) 
   if (variant === "editorial") {
     return (
       <div className="group block h-full w-full text-left">
-        <div className="relative h-full min-h-[16rem] overflow-hidden bg-sand">
+        <div className="relative h-full overflow-hidden bg-sand">
           <Image
             src={project.cover.src}
             alt={`${project.title}${project.location ? `, ${project.location}` : ""}`}
