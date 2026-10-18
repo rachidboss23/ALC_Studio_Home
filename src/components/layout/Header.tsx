@@ -12,7 +12,7 @@ export function Header() {
       <div className="mx-auto flex h-[4.75rem] w-full max-w-none items-center justify-between px-5 sm:px-8 xl:px-[5vw]">
         <Link href="/" className="flex shrink-0 items-center gap-2.5" onClick={() => setOpen(false)} aria-label={`${site.name}, inicio`}>
           <Image src="/brand/mark.png" alt="" width={40} height={31} className="h-8 w-auto" loading="eager" />
-          <span className="font-serif text-lg tracking-[0.1em] text-[#292b29] uppercase sm:text-xl">{site.name}</span>
+          <span className="font-serif text-sm tracking-[0.1em] text-[#292b29] uppercase sm:text-xl">{site.name}</span>
         </Link>
         <nav className="hidden items-center gap-5 lg:flex xl:gap-8" aria-label="Principal">
           {nav.map((item) => (
