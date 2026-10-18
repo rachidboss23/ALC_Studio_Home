@@ -12,7 +12,7 @@ export function BeforeAfter() {
   });
   if (items.length === 0) return null;
   return (
-    <section className="bg-sand py-20 lg:py-28">
+    <section className="home-section bg-sand">
       <Container><BeforeAfterSlider items={items} /></Container>
     </section>
   );

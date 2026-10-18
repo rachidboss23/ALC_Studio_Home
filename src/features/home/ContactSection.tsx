@@ -8,7 +8,7 @@ import { whatsappUrl } from "@/lib/whatsapp";
 
 export function ContactSection() {
   return (
-    <section id="contacto" className="py-20 lg:py-28">
+    <section id="contacto" className="home-section bg-sand">
       <Container className="grid gap-14 lg:grid-cols-[1fr_1.1fr]">
         <div>
           <SectionHeading eyebrow="Contacto" title="Cotiza tu proyecto" />

@@ -21,11 +21,11 @@ export function ProjectCard({ project, priority, variant = "standard" }: Props) 
           />
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
           {project.beforeImages.length > 0 && (
-            <span className="absolute top-3 left-3 bg-paper/95 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.14em] text-ink">Antes y después</span>
+            <span className="absolute top-3 left-3 bg-paper/95 px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-ink">Antes y después</span>
           )}
           <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 px-4 py-4 text-paper sm:px-5 sm:py-5">
             <div className="min-w-0">
-              <p className="mb-1 text-[10px] uppercase tracking-[0.16em] text-paper/80 sm:text-[11px]">
+              <p className="mb-1 text-xs uppercase tracking-[0.16em] text-paper/90">
                 {project.location ?? label}
               </p>
               <h3 className="font-serif text-xl leading-tight sm:text-2xl">{project.title}</h3>
@@ -51,7 +51,7 @@ export function ProjectCard({ project, priority, variant = "standard" }: Props) 
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
         {project.beforeImages.length > 0 && (
-          <span className="absolute top-3 left-3 bg-paper px-3 py-1 text-[10px] font-medium uppercase tracking-[0.14em]">Antes y después</span>
+          <span className="absolute top-3 left-3 bg-paper px-3 py-1 text-xs font-medium uppercase tracking-[0.14em]">Antes y después</span>
         )}
       </div>
       <p className="mt-4 text-[11px] uppercase tracking-[0.18em] text-accent">{label}{project.location ? ` · ${project.location}` : ""}</p>

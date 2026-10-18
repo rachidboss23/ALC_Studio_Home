@@ -4,7 +4,7 @@ import { site } from "@/config/site";
 
 export function ServiceAreas() {
   return (
-    <section className="bg-sand py-16 lg:py-20">
+    <section className="home-section bg-sand">
       <Container className="grid items-center gap-8 lg:grid-cols-[1fr_1.2fr]">
         <div>
           <SectionHeading eyebrow="Cobertura" title={`Trabajamos en la ${site.area}.`} />

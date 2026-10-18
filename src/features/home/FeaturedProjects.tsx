@@ -1,15 +1,7 @@
 import Link from "next/link";
 import { getProjects } from "@/features/projects/data";
 import { ProjectCard } from "@/features/projects/components/ProjectCard";
-
-const mosaicSlugs = [
-  "cocina-villa-alemana",
-  "bano-penablanca",
-  "cocina-vina-del-mar",
-  "rack-recreo-valparaiso",
-  "cocina-los-pinos-quilpue",
-  "remodelacion-completa-los-pinos",
-] as const;
+import { mosaicSlugs } from "./data/featured-projects";
 
 const mosaicLayout = [
   "col-span-1 aspect-[4/3] sm:col-span-2 sm:aspect-[2/1] lg:col-span-4 lg:row-span-1 lg:aspect-auto",
@@ -28,11 +20,11 @@ export function FeaturedProjects() {
   });
 
   return (
-    <section className="bg-[#f2eee6] py-16 sm:py-20 lg:py-24">
+    <section className="home-section bg-[#f2eee6]">
       <div className="mx-auto w-full max-w-7xl px-5 sm:px-8">
         <div className="mb-9 grid gap-6 sm:mb-11 lg:grid-cols-[1.2fr_1fr_auto] lg:items-end lg:gap-10">
           <div>
-            <p className="mb-4 flex items-center gap-4 text-[10px] font-medium uppercase tracking-[0.22em] text-[#6b6b68] sm:text-xs">
+            <p className="mb-4 flex items-center gap-4 text-xs font-medium uppercase tracking-[0.18em] text-[#565650]">
               Proyectos
               <span aria-hidden="true" className="text-sm">→</span>
             </p>
@@ -62,7 +54,10 @@ export function FeaturedProjects() {
           ))}
         </div>
         <div className="mt-9 flex justify-center sm:mt-11">
-          <Link href="/proyectos" className="inline-flex min-h-11 items-center gap-3 rounded-full border border-[#292b29]/25 px-6 font-serif text-sm text-[#292b29] transition-colors hover:border-[#292b29] hover:bg-[#292b29] hover:text-[#f5f1e9] focus-visible:outline-offset-4 motion-reduce:transition-none">
+          <Link
+            href="/proyectos"
+            className="inline-flex h-11 items-center justify-center gap-3 rounded-full border border-[#292b29]/25 bg-transparent px-6 text-[10px] font-medium uppercase tracking-[0.16em] text-[#292b29] transition-all duration-200 ease-out hover:border-[#292b29] hover:bg-[#292b29] hover:text-[#f5f1e9] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8a6f4d] focus-visible:ring-offset-2 motion-reduce:transition-none"
+          >
             Ver todos los proyectos
             <svg aria-hidden="true" className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none">
               <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
