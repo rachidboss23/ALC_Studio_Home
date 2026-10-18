@@ -33,8 +33,8 @@ export function Hero() {
     <>
       <section aria-labelledby="hero-title" className="relative isolate flex h-[min(70vh,44.5rem)] min-h-[34rem] items-center overflow-hidden bg-[#292b29]">
         <Image
-          src="/projects/cocina-vina-del-mar/after/01.webp"
-          alt="Cocina a medida de ALC Studio Home con muebles de madera, cubierta clara y barra con listones"
+          src="/pexels-artbovich-6527057.jpg"
+          alt="Cocina moderna con muebles blancos y taupe, cubierta clara y electrodomésticos integrados"
           fill
           loading="eager"
           unoptimized
