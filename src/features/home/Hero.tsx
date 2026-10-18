@@ -44,19 +44,19 @@ export function Hero() {
         />
         <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent max-sm:via-black/55 max-sm:to-black/35" />
         <div className="relative z-10 mx-auto w-full max-w-none px-6 py-16 sm:px-10 lg:px-[6vw]">
-          <div className="max-w-[42rem]">
-            <p className="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-[#f5f1e9]">
+          <div className="max-w-[42rem] lg:max-w-[50rem]">
+            <p className="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-[#f5f1e9] lg:mb-4 lg:text-[0.65rem] lg:tracking-[0.16em]">
               Diseño · Fabricación · Instalación
             </p>
-            <h1 id="hero-title" className="font-serif text-[clamp(3.25rem,7.5vw,6.5rem)] leading-[0.94] tracking-[-0.035em] text-[#f5f1e9]">
+            <h1 id="hero-title" className="font-serif text-[clamp(3.25rem,7.5vw,6.5rem)] leading-[0.94] tracking-[-0.035em] text-[#f5f1e9] lg:max-w-[50rem] lg:text-[clamp(3.5rem,5.2vw,5rem)] lg:leading-[0.98]">
               <span className="sm:block">Espacios que </span>
               <span className="sm:block">se viven, se sienten </span>
               <span className="sm:block">y perduran.</span>
             </h1>
-            <p className="mt-6 max-w-[29rem] text-base leading-relaxed text-white sm:mt-7 sm:text-lg">
+            <p className="mt-6 max-w-[29rem] text-base leading-relaxed text-white sm:mt-7 sm:text-lg lg:mt-5 lg:max-w-[34rem] lg:text-base lg:leading-[1.65]">
               Creamos muebles a medida y soluciones de diseño para tu hogar, combinando estética, funcionalidad y una ejecución de calidad.
             </p>
-            <Button href="/#contacto" variant="light" className="mt-8 min-h-12 sm:mt-9">
+            <Button href="/#contacto" variant="light" className="mt-8 min-h-12 sm:mt-9 lg:mt-6 lg:min-h-11">
               Solicita una cotización
               <svg aria-hidden="true" className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none">
                 <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
