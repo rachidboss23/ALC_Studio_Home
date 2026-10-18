@@ -36,8 +36,8 @@ export function Hero() {
           src="/pexels-artbovich-6527057.jpg"
           alt="Cocina moderna con muebles blancos y taupe, cubierta clara y electrodomésticos integrados"
           fill
-          loading="eager"
-          unoptimized
+          preload
+          quality={85}
           sizes="100vw"
           className="object-cover object-[center_48%] max-sm:object-[center_42%]"
         />
