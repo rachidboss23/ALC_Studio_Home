@@ -40,6 +40,11 @@ export function Footer() {
       <div className="border-t border-paper/10 py-6 text-center text-xs text-paper/40">
         © {new Date().getFullYear()} {site.name}. Todos los derechos reservados.
       </div>
+      <div className="pb-6 text-center text-xs text-paper/40">
+        <a href="https://tuwebpro.cl/" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-paper">
+          Desarrollado por TuWebPro
+        </a>
+      </div>
     </footer>
   );
 }
