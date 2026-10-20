@@ -29,6 +29,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
+  overflow-x: clip;
 }
 
 body {
@@ -60,5 +61,20 @@ dialog::backdrop {
   html,
   .scroll-smooth {
     scroll-behavior: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .service-card-sticky-wrapper {
+    position: sticky;
+    top: calc(82px + var(--card-index, 0) * 14px);
+    z-index: calc(10 + var(--card-index, 0));
+  }
+
+  .service-card-inner {
+    transform-origin: top center;
+    will-change: transform, filter, opacity;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 28px -6px rgba(24, 24, 22, 0.14), 0 4px 10px -2px rgba(24, 24, 22, 0.06);
   }
 }
